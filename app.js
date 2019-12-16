@@ -1,7 +1,7 @@
 var express=require('express');
 var exphbs=require('express-handlebars');
 var app=express();
-var puerto=process.env.port||3000;
+var puerto=process.env.port || 3000;
 var MongoClient = require('mongodb').MongoClient;
 var url = 'mongodb+srv://maira:bob@cluster0-tioej.mongodb.net/test?retryWrites=true&w=majority'
 // Database Name
@@ -72,7 +72,6 @@ app.post('/ver_comentarios',async function(req,res){
         res.render('comentarios',{comentarios})
        
 })
-
 
 //para que corra el servidor en el puerto 3000
 app.listen(puerto,function(){
