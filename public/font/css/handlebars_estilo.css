@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  
+}
+
+body {
+   font-family: Roboto;
+   background: rgb(223, 168, 143);
+
+
+}
+
+header {
+    width: 100%;
+}
+
+header img1 {
+    width: 20px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    border-radius: 7px;
+}
+h1{
+    color: #0000FF;
+    text-align: center;
+    margin:50;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: #0000FF;
+    text-align: center;
+    margin:80;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+input,textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box ;
+    font-size: 17px;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.boton{
+    background:rgb(0, 255, 136);
+    font-weight: bold;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#boton:hover {
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 500px){
+    form{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
