@@ -1,7 +1,7 @@
 var express=require('express');
 var exphbs=require('express-handlebars');
 var app=express();
-var puerto=process.env.port || 3000;
+var puerto= process.env.PORT || 3000;
 var MongoClient = require('mongodb').MongoClient;
 var url = 'mongodb+srv://maira:bob@cluster0-tioej.mongodb.net/test?retryWrites=true&w=majority'
 // Database Name
